@@ -36,11 +36,11 @@ function playsound(key){
         //iske andar humlog character store karenge joh humlog baad main switch statement main use karenge
         // this.style.color = "white";
         switch (key) {
-            case "a":
+            case "w":
                 var crash = new Audio("sounds/crash.mp3");
                  crash.play();
             break;
-            case "s":
+            case "a":
                 var kick = new Audio("sounds/kick-bass.mp3");
                  kick.play();
             break;
@@ -60,7 +60,7 @@ function playsound(key){
                var tom3 = new Audio("sounds/tom-3.mp3");
                  tom3.play(); 
             break;
-            case "w":
+            case "s":
                var tom4 = new Audio("sounds/tom-4.mp3");
                  tom4.play(); 
             break;
